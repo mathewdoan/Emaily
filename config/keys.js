@@ -1,6 +1,8 @@
-
-if (process.env.NODE_ENV === "production") {
-	module.exports = require("./prod.js");
-} else {
-	module.exports = require("./dev.js");
-}
+module.exports = {
+	googleClientID: "940990619339-7uk53o1ned0lp9ivdal2phbpcm82v38a.apps.googleusercontent.com",
+	googleClientSecret: "hM3eGZIt5ElwZxNaleqG4gFj",
+	mongoURI: "mongodb://mathew:apple123@ds121588.mlab.com:21588/emaily-dev-2018",
+	cookieKey: "fmsaoiejj289fj98a4joisdfjoiaweoi",
+	facebookClientID: "166987240590655",
+	facebookClientSecret: "dda8faa2622f57c37465435785cf2682"
+};
